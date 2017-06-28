@@ -28,7 +28,7 @@ Array.prototype.slice.call(document.querySelectorAll(".grid--item"), 0)<br/>
         clip: document.querySelector("#clip-" + index + " circle")<br/>
       })<br/>
     );<br/>
-  });</br/>
+  });<br/>
   the function here first converts the given nodelist to a real array and then it pushes the following methods to the item array.
   
   function Item(config) {<br/>

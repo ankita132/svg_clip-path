@@ -41,7 +41,7 @@ text {
 }
 
 .svg-masked-text {
-  fill: white;
+  fill: none;
 }
 
 image {

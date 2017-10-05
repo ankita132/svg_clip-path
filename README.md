@@ -1,6 +1,6 @@
 # svg_clip-path
 Breakdown of the Javascript code -<br/>
-Basically here there is involvement of DOM to SVG Coordinate Translation. SVGs provide their own matrix factoring mechanisms to translate coordinates.
+Basically here there is involvement of DOM to SVG Coordinate Translation. SVGs provide their own matrix factoring mechanisms to translate cordinates.
 
 var point = document.querySelector("svg").createSVGPoint();<br/>
 This returns a svg point.Basically a svg point is a 2D or 3D point in the SVG coordinate system.The coordinate system is defined by the viewBox which is also referred to as the 'real' coordinate system.

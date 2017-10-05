@@ -7,7 +7,7 @@ This returns a svg point.Basically a svg point is a 2D or 3D point in the SVG co
 
 point.x = e.clientX;<br/>
 point.y = e.clientY;<br/>
-These returns the horizontal and the vertical coordinate of the mouse over the svg canvas.Remember,here the svg canvas exists for each hexagonal structure and therefore the coordinates are given in reference to that.Also remember here the coordinates provided are the pixel coordinates and not the svg ones.
+These returns the horizontal and the vertical cordinate of the mouse over the svg canvas.Remember,here the svg canvas exists for each hexagonal structure and therefore the cordinates are given in reference to that.Also remember here the coordinates provided are the pixel coordinates and not the svg ones.
 
 return point.matrixTransform(svg.getScreenCTM().inverse());<br/>
 Here we do the matrix transformation.That matrix is created from an inverse of the SVG’s.getScreenCTM() method which maps SVG units to screen coordinates.For detailed representation of the conversion refer -https://msdn.microsoft.com/en-us/library/hh535760(v=vs.85).aspx
